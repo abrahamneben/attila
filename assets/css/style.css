@@ -1835,17 +1835,17 @@ button,input,select,textarea{
 .post-meta a:focus,.post-meta a:hover{
     text-decoration:underline
 }
-.post-header .post-meta{
+/*.post-header .post-meta{
     position:relative;
     padding-bottom:4rem;
     z-index:10
-}
+}*/
 .post-header .post-meta:after{
     clear:both;
     content:'';
     display:table
 }
-.post-header .post-meta:before{
+/*.post-header .post-meta:before{
     content:'';
     position:absolute;
     left:0;
@@ -1853,7 +1853,7 @@ button,input,select,textarea{
     width:8rem;
     height:1px;
     background:#e1e3e6
-}
+}*/
 @media (prefers-color-scheme: dark){
     .post-header .post-meta:before{
         background:#3b3d40
