@@ -1808,11 +1808,11 @@ button,input,select,textarea{
     color:inherit;
     font-weight:inherit
 }
-.post-header .post-title{
+/*.post-header .post-title{
     margin:0 0 4rem;
     font-size:6em;
     line-height:1.25em
-}
+}*/
 .has-cover .post-title{
     color:#FFF
 }
