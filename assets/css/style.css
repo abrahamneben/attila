@@ -902,7 +902,7 @@ button,input,select,textarea{
 }
 .blog-header{
     position:relative;
-    padding-top:calc(16rem + 4vw)
+    padding-top:100px;
 }
 .blog-header.has-cover{
     padding-top:calc(24rem + 8vw);
