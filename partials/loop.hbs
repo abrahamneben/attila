@@ -8,7 +8,9 @@
 	<div class="inner">
 		<div class="box post-box">
 			<span class="post-meta">
-				<time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMM YYYY"}}</time>
+				<time datetime="{{date format="YYYY-MM-DD hh:mm:ss A"}}">
+				    {{date published_at format="YYYY MMMM DD hh:mm:ss A"}}
+				</time>
 			</span>
 			<h2 class="post-title">
 				<a href="{{url}}">{{{title}}}</a>
